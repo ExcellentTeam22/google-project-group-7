@@ -39,7 +39,7 @@ def check_for_sentence(word, wordList):
        print("the sentence is: ", temp)
 
 #------------------------------------------------------------------------------------------------------------------
-if __name__ == '__main__':
+if _name_ == '_main_':
 
 
    x = str(input("Enter a sentence, please:"))
@@ -53,20 +53,3 @@ if __name__ == '__main__':
        for word2 in my_dict.keys():
            if word == word2:
               check_for_sentence(word, x)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
